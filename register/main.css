@@ -1,0 +1,81 @@
+@import url("components.css");
+*
+   {
+       box-sizing:		border-box;
+       line-height: 1.6;
+       font-family: "B Koodak";
+       outline: none;
+       margin-left:auto;
+       margin-right:auto;
+   }
+   body
+    {
+        padding:		1em;
+        width:300px;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+    html
+   {
+       padding:		1em;
+       font-size: 		16px;
+      
+   }
+   form
+	{
+        background-color: whitesmoke;
+		box-sizing:		border-box;
+		width:300px;
+        border-radius:	20px; 
+		padding: 1em;
+		font-family: "b koodak";
+        font-size: 		16px;
+		
+	}	
+
+:lang(fa)
+   {
+       direction: rtl;
+       text-align: right;
+       
+   }
+:lang(en)
+   {
+       direction: ltr;
+       text-align: left;
+       
+   }
+input,textarea,button,label
+   {
+       height: 		 48px;
+       padding:		 16px;
+       border:		 1px solid transparent;
+       border-radius:	25px; 
+       font-size:		20px;
+       margin: 8px 8px 8px 8px;
+       min-width:		 200px;
+       max-width: 		 100%;
+       width: 90%;
+               
+   }
+   input
+   {
+       background-color: silver;
+   }
+   h2
+   {
+       text-align: center;
+       padding:		 0 40px;
+   }
+textarea
+   {
+       height: 6em;
+   }
+   
+	
+
+		
+
+
+           
+       
